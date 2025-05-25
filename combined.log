@@ -1,0 +1,229 @@
+{"level":"info","message":"Server is running on port 3100","timestamp":"2025-05-25T17:37:54.428Z"}
+{"level":"info","message":"GET /","timestamp":"2025-05-25T17:38:15.845Z"}
+{"level":"info","message":"GET /style.css","timestamp":"2025-05-25T17:38:15.872Z"}
+{"level":"info","message":"GET /api/info","timestamp":"2025-05-25T17:38:15.892Z"}
+{"level":"info","message":"API /api/info diakses","timestamp":"2025-05-25T17:38:15.894Z"}
+{"level":"info","message":"OPTIONS /api/auth/tablokplano","timestamp":"2025-05-25T17:38:40.361Z"}
+{"level":"info","message":"POST /api/auth/tablokplano","timestamp":"2025-05-25T17:38:40.369Z"}
+{"level":"error","message":"Office code and pluid are required","timestamp":"2025-05-25T17:38:40.504Z"}
+{"level":"info","message":"OPTIONS /api/auth/tablokplano","timestamp":"2025-05-25T17:39:00.239Z"}
+{"level":"info","message":"POST /api/auth/tablokplano","timestamp":"2025-05-25T17:39:00.242Z"}
+{"level":"info","message":"checkItemTablokModel executed successfully for office: G113, pluid: 20138016","timestamp":"2025-05-25T17:39:00.276Z"}
+{"level":"info","message":"Data found for checkItem","timestamp":"2025-05-25T17:39:00.277Z"}
+{"level":"info","message":"OPTIONS /api/auth/zonarak","timestamp":"2025-05-25T17:39:05.166Z"}
+{"level":"info","message":"POST /api/auth/zonarak","timestamp":"2025-05-25T17:39:05.170Z"}
+{"level":"info","message":"checkZonaRakModel executed successfully for tiperak: BULKY_FRACTION","timestamp":"2025-05-25T17:39:05.173Z"}
+{"level":"info","message":"Data found for checkZonaRak","timestamp":"2025-05-25T17:39:05.174Z"}
+{"level":"info","message":"OPTIONS /api/auth/linerak","timestamp":"2025-05-25T17:39:06.873Z"}
+{"level":"info","message":"POST /api/auth/linerak","timestamp":"2025-05-25T17:39:06.875Z"}
+{"level":"info","message":"checkLineRakModel executed successfully for tiperak: BULKY_FRACTION, linerak: ZZ","timestamp":"2025-05-25T17:39:06.881Z"}
+{"level":"info","message":"Data found for checkLineRak","timestamp":"2025-05-25T17:39:06.882Z"}
+{"level":"info","message":"POST /api/auth/grouprak","timestamp":"2025-05-25T17:39:22.719Z"}
+{"level":"info","message":"checkGroupRakModel executed successfully for OFFICEID: G113, TYPEPLA: BULKY_FRACTION","timestamp":"2025-05-25T17:39:22.730Z"}
+{"level":"info","message":"checkExistingRakModel executed successfully","timestamp":"2025-05-25T17:39:22.869Z"}
+{"level":"info","message":"Checking key: G113|20138016|316343, exists in DB: false","timestamp":"2025-05-25T17:39:22.871Z"}
+{"level":"info","message":"Checking key: G113|20138016|316667, exists in DB: false","timestamp":"2025-05-25T17:39:22.871Z"}
+{"level":"info","message":"Checking key: G113|20138016|316553, exists in DB: false","timestamp":"2025-05-25T17:39:22.872Z"}
+{"level":"info","message":"Checking key: G113|20138016|316327, exists in DB: false","timestamp":"2025-05-25T17:39:22.872Z"}
+{"level":"info","message":"Checking key: G113|20138016|316353, exists in DB: false","timestamp":"2025-05-25T17:39:22.873Z"}
+{"level":"info","message":"Checking key: G113|20138016|316355, exists in DB: false","timestamp":"2025-05-25T17:39:22.873Z"}
+{"level":"info","message":"Checking key: G113|20138016|316403, exists in DB: false","timestamp":"2025-05-25T17:39:22.874Z"}
+{"level":"info","message":"Checking key: G113|20138016|316661, exists in DB: false","timestamp":"2025-05-25T17:39:22.874Z"}
+{"level":"info","message":"Checking key: G113|20138016|316673, exists in DB: false","timestamp":"2025-05-25T17:39:22.874Z"}
+{"level":"info","message":"Checking key: G113|20138016|316679, exists in DB: false","timestamp":"2025-05-25T17:39:22.875Z"}
+{"level":"info","message":"Checking key: G113|20138016|316681, exists in DB: false","timestamp":"2025-05-25T17:39:22.875Z"}
+{"level":"info","message":"Checking key: G113|20138016|316695, exists in DB: false","timestamp":"2025-05-25T17:39:22.875Z"}
+{"level":"info","message":"Checking key: G113|20138016|316701, exists in DB: false","timestamp":"2025-05-25T17:39:22.876Z"}
+{"level":"info","message":"Checking key: G113|20138016|316631, exists in DB: false","timestamp":"2025-05-25T17:39:22.876Z"}
+{"level":"info","message":"Checking key: G113|20138016|316417, exists in DB: false","timestamp":"2025-05-25T17:39:22.876Z"}
+{"level":"info","message":"Checking key: G113|20138016|316415, exists in DB: false","timestamp":"2025-05-25T17:39:22.877Z"}
+{"level":"info","message":"Checking key: G113|20138016|316409, exists in DB: false","timestamp":"2025-05-25T17:39:22.877Z"}
+{"level":"info","message":"Checking key: G113|20138016|316685, exists in DB: false","timestamp":"2025-05-25T17:39:22.877Z"}
+{"level":"info","message":"Checking key: G113|20138016|316693, exists in DB: false","timestamp":"2025-05-25T17:39:22.878Z"}
+{"level":"info","message":"Checking key: G113|20138016|316649, exists in DB: false","timestamp":"2025-05-25T17:39:22.878Z"}
+{"level":"info","message":"Checking key: G113|20138016|316329, exists in DB: false","timestamp":"2025-05-25T17:39:22.879Z"}
+{"level":"info","message":"Checking key: G113|20138016|316617, exists in DB: false","timestamp":"2025-05-25T17:39:22.879Z"}
+{"level":"info","message":"Checking key: G113|20138016|316641, exists in DB: false","timestamp":"2025-05-25T17:39:22.879Z"}
+{"level":"info","message":"Checking key: G113|20138016|316655, exists in DB: false","timestamp":"2025-05-25T17:39:22.880Z"}
+{"level":"info","message":"Checking key: G113|20138016|316281, exists in DB: false","timestamp":"2025-05-25T17:39:22.880Z"}
+{"level":"info","message":"Checking key: G113|20138016|316215, exists in DB: false","timestamp":"2025-05-25T17:39:22.880Z"}
+{"level":"info","message":"Checking key: G113|20138016|316255, exists in DB: false","timestamp":"2025-05-25T17:39:22.881Z"}
+{"level":"info","message":"Checking key: G113|20138016|316261, exists in DB: false","timestamp":"2025-05-25T17:39:22.881Z"}
+{"level":"info","message":"Checking key: G113|20138016|316549, exists in DB: false","timestamp":"2025-05-25T17:39:22.881Z"}
+{"level":"info","message":"Checking key: G113|20138016|316543, exists in DB: false","timestamp":"2025-05-25T17:39:22.882Z"}
+{"level":"info","message":"Checking key: G113|20138016|316387, exists in DB: false","timestamp":"2025-05-25T17:39:22.882Z"}
+{"level":"info","message":"Checking key: G113|20138016|316371, exists in DB: false","timestamp":"2025-05-25T17:39:22.882Z"}
+{"level":"info","message":"Checking key: G113|20138016|316471, exists in DB: false","timestamp":"2025-05-25T17:39:22.883Z"}
+{"level":"info","message":"Checking key: G113|20138016|316449, exists in DB: false","timestamp":"2025-05-25T17:39:22.883Z"}
+{"level":"info","message":"Checking key: G113|20138016|316447, exists in DB: false","timestamp":"2025-05-25T17:39:22.883Z"}
+{"level":"info","message":"Checking key: G113|20138016|316523, exists in DB: false","timestamp":"2025-05-25T17:39:22.884Z"}
+{"level":"info","message":"Checking key: G113|20138016|316423, exists in DB: false","timestamp":"2025-05-25T17:39:22.884Z"}
+{"level":"info","message":"Checking key: G113|20138016|316381, exists in DB: false","timestamp":"2025-05-25T17:39:22.884Z"}
+{"level":"info","message":"Checking key: G113|20138016|316391, exists in DB: false","timestamp":"2025-05-25T17:39:22.885Z"}
+{"level":"info","message":"Checking key: G113|20138016|316509, exists in DB: false","timestamp":"2025-05-25T17:39:22.885Z"}
+{"level":"info","message":"Checking key: G113|20138016|316477, exists in DB: false","timestamp":"2025-05-25T17:39:22.885Z"}
+{"level":"info","message":"Checking key: G113|20138016|316485, exists in DB: false","timestamp":"2025-05-25T17:39:22.886Z"}
+{"level":"info","message":"Checking key: G113|20138016|316557, exists in DB: false","timestamp":"2025-05-25T17:39:22.886Z"}
+{"level":"info","message":"Checking key: G113|20138016|316475, exists in DB: false","timestamp":"2025-05-25T17:39:22.886Z"}
+{"level":"info","message":"Checking key: G113|20138016|316495, exists in DB: false","timestamp":"2025-05-25T17:39:22.887Z"}
+{"level":"info","message":"Checking key: G113|20138016|316333, exists in DB: false","timestamp":"2025-05-25T17:39:22.887Z"}
+{"level":"info","message":"Checking key: G113|20138016|316335, exists in DB: false","timestamp":"2025-05-25T17:39:22.887Z"}
+{"level":"info","message":"Checking key: G113|20138016|316235, exists in DB: false","timestamp":"2025-05-25T17:39:22.888Z"}
+{"level":"info","message":"Checking key: G113|20138016|316243, exists in DB: false","timestamp":"2025-05-25T17:39:22.888Z"}
+{"level":"info","message":"Checking key: G113|20138016|316309, exists in DB: false","timestamp":"2025-05-25T17:39:22.888Z"}
+{"level":"info","message":"Checking key: G113|20138016|316349, exists in DB: false","timestamp":"2025-05-25T17:39:22.889Z"}
+{"level":"info","message":"Checking key: G113|20138016|316269, exists in DB: false","timestamp":"2025-05-25T17:39:22.889Z"}
+{"level":"info","message":"Checking key: G113|20138016|316273, exists in DB: false","timestamp":"2025-05-25T17:39:22.889Z"}
+{"level":"info","message":"Checking key: G113|20138016|316277, exists in DB: false","timestamp":"2025-05-25T17:39:22.890Z"}
+{"level":"info","message":"Checking key: G113|20138016|316193, exists in DB: false","timestamp":"2025-05-25T17:39:22.890Z"}
+{"level":"info","message":"Checking key: G113|20138016|316185, exists in DB: false","timestamp":"2025-05-25T17:39:22.890Z"}
+{"level":"info","message":"Checking key: G113|20138016|316205, exists in DB: false","timestamp":"2025-05-25T17:39:22.891Z"}
+{"level":"info","message":"Checking key: G113|20138016|316227, exists in DB: false","timestamp":"2025-05-25T17:39:22.891Z"}
+{"level":"info","message":"Checking key: G113|20138016|316393, exists in DB: false","timestamp":"2025-05-25T17:39:22.891Z"}
+{"level":"info","message":"Checking key: G113|20138016|316207, exists in DB: false","timestamp":"2025-05-25T17:39:22.892Z"}
+{"level":"info","message":"Checking key: G113|20138016|316177, exists in DB: false","timestamp":"2025-05-25T17:39:22.892Z"}
+{"level":"info","message":"Checking key: G113|20138016|316221, exists in DB: false","timestamp":"2025-05-25T17:39:22.892Z"}
+{"level":"info","message":"Checking key: G113|20138016|316197, exists in DB: false","timestamp":"2025-05-25T17:39:22.893Z"}
+{"level":"info","message":"Checking key: G113|20138016|316323, exists in DB: false","timestamp":"2025-05-25T17:39:22.893Z"}
+{"level":"info","message":"Checking key: G113|20138016|316315, exists in DB: false","timestamp":"2025-05-25T17:39:22.893Z"}
+{"level":"info","message":"Checking key: G113|20138016|316319, exists in DB: false","timestamp":"2025-05-25T17:39:22.894Z"}
+{"level":"info","message":"Checking key: G113|20138016|316317, exists in DB: false","timestamp":"2025-05-25T17:39:22.894Z"}
+{"level":"info","message":"Checking key: G113|20138016|316345, exists in DB: false","timestamp":"2025-05-25T17:39:22.894Z"}
+{"level":"info","message":"Checking key: G113|20138016|316347, exists in DB: false","timestamp":"2025-05-25T17:39:22.895Z"}
+{"level":"info","message":"Checking key: G113|20138016|316367, exists in DB: false","timestamp":"2025-05-25T17:39:22.895Z"}
+{"level":"info","message":"Checking key: G113|20138016|316351, exists in DB: false","timestamp":"2025-05-25T17:39:22.895Z"}
+{"level":"info","message":"Checking key: G113|20138016|316399, exists in DB: false","timestamp":"2025-05-25T17:39:22.896Z"}
+{"level":"info","message":"Checking key: G113|20138016|316377, exists in DB: false","timestamp":"2025-05-25T17:39:22.896Z"}
+{"level":"info","message":"Checking key: G113|20138016|316219, exists in DB: false","timestamp":"2025-05-25T17:39:22.896Z"}
+{"level":"info","message":"Checking key: G113|20138016|316265, exists in DB: false","timestamp":"2025-05-25T17:39:22.897Z"}
+{"level":"info","message":"Checking key: G113|20138016|316211, exists in DB: false","timestamp":"2025-05-25T17:39:22.897Z"}
+{"level":"info","message":"Checking key: G113|20138016|316413, exists in DB: false","timestamp":"2025-05-25T17:39:22.897Z"}
+{"level":"info","message":"Checking key: G113|20138016|316515, exists in DB: false","timestamp":"2025-05-25T17:39:22.898Z"}
+{"level":"info","message":"Checking key: G113|20138016|316595, exists in DB: false","timestamp":"2025-05-25T17:39:22.898Z"}
+{"level":"info","message":"Checking key: G113|20138016|316445, exists in DB: false","timestamp":"2025-05-25T17:39:22.898Z"}
+{"level":"info","message":"Checking key: G113|20138016|316433, exists in DB: false","timestamp":"2025-05-25T17:39:22.899Z"}
+{"level":"info","message":"Checking key: G113|20138016|316563, exists in DB: false","timestamp":"2025-05-25T17:39:22.899Z"}
+{"level":"info","message":"Checking key: G113|20138016|316459, exists in DB: false","timestamp":"2025-05-25T17:39:22.900Z"}
+{"level":"info","message":"Checking key: G113|20138016|316607, exists in DB: false","timestamp":"2025-05-25T17:39:22.900Z"}
+{"level":"info","message":"Checking key: G113|20138016|316499, exists in DB: false","timestamp":"2025-05-25T17:39:22.901Z"}
+{"level":"info","message":"Checking key: G113|20138016|316489, exists in DB: false","timestamp":"2025-05-25T17:39:22.901Z"}
+{"level":"info","message":"Checking key: G113|20138016|316519, exists in DB: false","timestamp":"2025-05-25T17:39:22.901Z"}
+{"level":"info","message":"Checking key: G113|20138016|316581, exists in DB: false","timestamp":"2025-05-25T17:39:22.902Z"}
+{"level":"info","message":"Checking key: G113|20138016|316453, exists in DB: false","timestamp":"2025-05-25T17:39:22.902Z"}
+{"level":"info","message":"Checking key: G113|20138016|316429, exists in DB: false","timestamp":"2025-05-25T17:39:22.902Z"}
+{"level":"info","message":"Checking key: G113|20138016|316611, exists in DB: false","timestamp":"2025-05-25T17:39:22.903Z"}
+{"level":"info","message":"Checking key: G113|20138016|316503, exists in DB: false","timestamp":"2025-05-25T17:39:22.903Z"}
+{"level":"info","message":"Checking key: G113|20138016|316529, exists in DB: false","timestamp":"2025-05-25T17:39:22.903Z"}
+{"level":"info","message":"Checking key: G113|20138016|316575, exists in DB: false","timestamp":"2025-05-25T17:39:22.904Z"}
+{"level":"info","message":"Checking key: G113|20138016|316573, exists in DB: false","timestamp":"2025-05-25T17:39:22.904Z"}
+{"level":"info","message":"Checking key: G113|20138016|316567, exists in DB: false","timestamp":"2025-05-25T17:39:22.905Z"}
+{"level":"info","message":"Checking key: G113|20138016|316561, exists in DB: false","timestamp":"2025-05-25T17:39:22.905Z"}
+{"level":"info","message":"Checking key: G113|20138016|316593, exists in DB: false","timestamp":"2025-05-25T17:39:22.905Z"}
+{"level":"info","message":"Checking key: G113|20138016|316627, exists in DB: false","timestamp":"2025-05-25T17:39:22.906Z"}
+{"level":"info","message":"Checking key: G113|20138016|316637, exists in DB: false","timestamp":"2025-05-25T17:39:22.906Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316343","timestamp":"2025-05-25T17:39:22.912Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316681","timestamp":"2025-05-25T17:39:22.913Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316695","timestamp":"2025-05-25T17:39:22.914Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316701","timestamp":"2025-05-25T17:39:22.914Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316631","timestamp":"2025-05-25T17:39:22.915Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316417","timestamp":"2025-05-25T17:39:22.915Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316415","timestamp":"2025-05-25T17:39:22.916Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316409","timestamp":"2025-05-25T17:39:22.917Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316685","timestamp":"2025-05-25T17:39:22.918Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316693","timestamp":"2025-05-25T17:39:22.919Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316649","timestamp":"2025-05-25T17:39:22.920Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316329","timestamp":"2025-05-25T17:39:22.920Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316617","timestamp":"2025-05-25T17:39:22.921Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316641","timestamp":"2025-05-25T17:39:22.922Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316655","timestamp":"2025-05-25T17:39:22.922Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316281","timestamp":"2025-05-25T17:39:22.923Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316215","timestamp":"2025-05-25T17:39:22.923Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316255","timestamp":"2025-05-25T17:39:22.924Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316261","timestamp":"2025-05-25T17:39:22.926Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316549","timestamp":"2025-05-25T17:39:22.926Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316543","timestamp":"2025-05-25T17:39:22.927Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316387","timestamp":"2025-05-25T17:39:22.928Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316371","timestamp":"2025-05-25T17:39:22.929Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316471","timestamp":"2025-05-25T17:39:22.930Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316449","timestamp":"2025-05-25T17:39:22.930Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316447","timestamp":"2025-05-25T17:39:22.931Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316523","timestamp":"2025-05-25T17:39:22.931Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316423","timestamp":"2025-05-25T17:39:22.932Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316381","timestamp":"2025-05-25T17:39:22.933Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316391","timestamp":"2025-05-25T17:39:22.933Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316509","timestamp":"2025-05-25T17:39:22.934Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316477","timestamp":"2025-05-25T17:39:22.934Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316553","timestamp":"2025-05-25T17:39:22.935Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316667","timestamp":"2025-05-25T17:39:22.935Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316403","timestamp":"2025-05-25T17:39:22.936Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316353","timestamp":"2025-05-25T17:39:22.936Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316327","timestamp":"2025-05-25T17:39:22.937Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316661","timestamp":"2025-05-25T17:39:22.938Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316355","timestamp":"2025-05-25T17:39:22.938Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316673","timestamp":"2025-05-25T17:39:22.939Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316679","timestamp":"2025-05-25T17:39:22.940Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316485","timestamp":"2025-05-25T17:39:22.940Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316557","timestamp":"2025-05-25T17:39:22.941Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316475","timestamp":"2025-05-25T17:39:22.941Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316235","timestamp":"2025-05-25T17:39:22.942Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316269","timestamp":"2025-05-25T17:39:22.942Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316273","timestamp":"2025-05-25T17:39:22.943Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316277","timestamp":"2025-05-25T17:39:22.943Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316185","timestamp":"2025-05-25T17:39:22.944Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316205","timestamp":"2025-05-25T17:39:22.944Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316227","timestamp":"2025-05-25T17:39:22.945Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316393","timestamp":"2025-05-25T17:39:22.945Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316207","timestamp":"2025-05-25T17:39:22.946Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316177","timestamp":"2025-05-25T17:39:22.946Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316221","timestamp":"2025-05-25T17:39:22.947Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316197","timestamp":"2025-05-25T17:39:22.948Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316323","timestamp":"2025-05-25T17:39:22.948Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316315","timestamp":"2025-05-25T17:39:22.949Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316319","timestamp":"2025-05-25T17:39:22.949Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316317","timestamp":"2025-05-25T17:39:22.950Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316345","timestamp":"2025-05-25T17:39:22.950Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316347","timestamp":"2025-05-25T17:39:22.951Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316367","timestamp":"2025-05-25T17:39:22.951Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316351","timestamp":"2025-05-25T17:39:22.952Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316399","timestamp":"2025-05-25T17:39:22.952Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316377","timestamp":"2025-05-25T17:39:22.953Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316219","timestamp":"2025-05-25T17:39:22.954Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316265","timestamp":"2025-05-25T17:39:22.954Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316211","timestamp":"2025-05-25T17:39:22.955Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316495","timestamp":"2025-05-25T17:39:22.955Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316333","timestamp":"2025-05-25T17:39:22.956Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316335","timestamp":"2025-05-25T17:39:22.956Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316243","timestamp":"2025-05-25T17:39:22.957Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316309","timestamp":"2025-05-25T17:39:22.957Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316349","timestamp":"2025-05-25T17:39:22.958Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316193","timestamp":"2025-05-25T17:39:22.959Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316413","timestamp":"2025-05-25T17:39:22.959Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316515","timestamp":"2025-05-25T17:39:22.960Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316595","timestamp":"2025-05-25T17:39:22.960Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316499","timestamp":"2025-05-25T17:39:22.961Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316489","timestamp":"2025-05-25T17:39:22.961Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316519","timestamp":"2025-05-25T17:39:22.962Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316581","timestamp":"2025-05-25T17:39:22.963Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316453","timestamp":"2025-05-25T17:39:22.963Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316429","timestamp":"2025-05-25T17:39:22.964Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316611","timestamp":"2025-05-25T17:39:22.965Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316503","timestamp":"2025-05-25T17:39:22.965Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316529","timestamp":"2025-05-25T17:39:22.966Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316575","timestamp":"2025-05-25T17:39:22.966Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316573","timestamp":"2025-05-25T17:39:22.967Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316567","timestamp":"2025-05-25T17:39:22.968Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316561","timestamp":"2025-05-25T17:39:22.968Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316593","timestamp":"2025-05-25T17:39:22.969Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316627","timestamp":"2025-05-25T17:39:22.969Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316637","timestamp":"2025-05-25T17:39:22.970Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316445","timestamp":"2025-05-25T17:39:22.971Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316433","timestamp":"2025-05-25T17:39:22.971Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316563","timestamp":"2025-05-25T17:39:22.972Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316459","timestamp":"2025-05-25T17:39:22.972Z"}
+{"level":"info","message":"insertGroupPlanoModel executed successfully for cellid: 316607","timestamp":"2025-05-25T17:39:22.972Z"}
+{"level":"info","message":"Data inserted successfully","timestamp":"2025-05-25T17:39:22.973Z"}
+{"level":"info","message":"OPTIONS /api/auth/tablokplano","timestamp":"2025-05-25T17:39:23.112Z"}
+{"level":"info","message":"POST /api/auth/tablokplano","timestamp":"2025-05-25T17:39:23.118Z"}
+{"level":"error","message":"Office code and pluid are required","timestamp":"2025-05-25T17:39:23.118Z"}
+{"level":"info","message":"POST /api/auth/tablokplano","timestamp":"2025-05-25T17:39:24.563Z"}
+{"level":"error","message":"Office code and pluid are required","timestamp":"2025-05-25T17:39:24.566Z"}

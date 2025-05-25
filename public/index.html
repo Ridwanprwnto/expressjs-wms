@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WMS Server</title>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet" type="text/css">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+        <script>
+            async function fetchServerInfo() {
+                const response = await fetch('/api/info');
+                const data = await response.json();
+                document.getElementById('webServer').innerText = `Web Server: ${data.webServer} Version ${data.backendVersion}`;
+                document.getElementById('nodeVersion').innerText = `Backend: Node.js Version ${data.nodeVersion}`;
+            }
+            window.onload = fetchServerInfo;
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="title" title="WMS">WMS</div>
+                <div class="info"><br />
+                    <span id="webServer">Web Server: xxx version</span><br />
+                    <span id="nodeVersion">Node Version: xxx version</span> <span><a title="" href="https://nodejs.org/en">info</a></span><br />
+                      <!-- Document Root: <br /> -->
+                </div>
+                <div class="opt">
+                  <div><a title="Getting Started" href="#">Getting Started API Path</a></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
