@@ -15,7 +15,7 @@ const checkItemTablokModel = async (office, pluid, flag) => {
 };
 
 const checkZonaRakModel = async (tiperak, flag) => {
-    const query = 'SELECT pla_zonarak FROM dc_planogram_zonarak_t WHERE pla_fk_tipe = $1 AND pla_tipe_display IS NULL OR pla_fk_tipe = $1 AND pla_tipe_display != $2';
+    const query = 'SELECT pla_zonarak FROM dc_planogram_zonarak_t WHERE pla_fk_tipe = $1 AND pla_tipe_display IS NULL OR pla_fk_tipe = $1 AND pla_tipe_display != $2 ORDER BY pla_zonarak ASC';
     const values = [tiperak, flag];
     try {
         const result = await pool.query(query, values);

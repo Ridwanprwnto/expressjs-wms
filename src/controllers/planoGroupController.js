@@ -5,7 +5,7 @@ const {
     checkGroupRakModel, 
     checkExistingRakModel, 
     insertGroupPlanoModel 
-} = require('../models/authModel');
+} = require('../models/planoGroupModel');
 const { logInfo, logError } = require('../utils/logger');
 
 const checkItemController = async (req, res) => {
