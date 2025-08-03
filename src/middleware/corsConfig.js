@@ -5,8 +5,6 @@ const { logger } = require('../utils/logger');
 
 dotenv.config();
 
-require('dotenv').config();
-
 const setupCors = () => {
     const whitelist = (process.env.CORS_DOMAINS || '')
         .split(',')
