@@ -1,6 +1,8 @@
 // config/db.js
 const { Pool } = require('pg');
-require('dotenv').config();
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 // Create a new PostgreSQL pool using environment variables
 const pool = new Pool({
