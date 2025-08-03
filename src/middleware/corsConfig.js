@@ -1,6 +1,11 @@
 // middleware/corsConfig.js
 const cors = require('cors');
+const dotenv = require("dotenv");
 const { logger } = require('../utils/logger');
+
+dotenv.config();
+
+require('dotenv').config();
 
 const setupCors = () => {
     const whitelist = (process.env.CORS_DOMAINS || '')

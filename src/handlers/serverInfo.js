@@ -1,7 +1,10 @@
 // handlers/serverInfo.js
 const { logInfo } = require('../utils/logger');
 const path = require('path');
+const dotenv = require("dotenv");
 const fs = require('fs');
+
+dotenv.config();
 
 const getServerInfo = (req, res) => {
     const packageJson = JSON.parse(

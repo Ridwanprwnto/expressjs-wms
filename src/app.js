@@ -1,11 +1,12 @@
 // app.js
 const express = require('express');
-const cors = require('cors');
 const path = require('path');
+const dotenv = require("dotenv");
 const services = require('./services');
 const { logger, logInfo } = require('./utils/logger');
 const setupCors = require('./middleware/corsConfig');
-require('dotenv').config();
+
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT;
