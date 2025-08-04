@@ -15,6 +15,8 @@ const getServerInfo = (req, res) => {
         webServer: process.env.WEB_SERVER || 'Express',
         backendVersion: packageJson.dependencies.express,
         nodeVersion: process.version,
+        developer: packageJson.author,
+        website: process.env.PERSONAL_WEB,
     };
 
     logInfo(`API ${process.env.PATH_API + "/info"} accessed`);
