@@ -4,7 +4,8 @@ const {
     checkZonaRakController, 
     checkLineRakController, 
     checkGroupRakController 
-} = require('../controllers/planoGroupController');
+} = require('../../controllers/planoGroupController');
+
 const planoGroupRoute = express.Router();
 
 planoGroupRoute.post('/tablokplano', checkItemController);

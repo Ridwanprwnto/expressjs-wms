@@ -6,7 +6,7 @@ const fs = require('fs');
 
 dotenv.config();
 
-const getServerInfo = (req, res) => {
+const getServerInfo = async (req, res) => {
     const packageJson = JSON.parse(
         fs.readFileSync(path.join(__dirname, '../../package.json'), 'utf8')
     );
@@ -19,8 +19,10 @@ const getServerInfo = (req, res) => {
         website: process.env.PERSONAL_WEB,
     };
 
-    logInfo(`API ${process.env.PATH_API + "/info"} accessed`);
+    logInfo(`API ${process.env.PATH_API + "/app/info"} accessed`);
     res.json(serverInfo);
 };
 
-module.exports = getServerInfo;
+module.exports = {
+    getServerInfo
+};
