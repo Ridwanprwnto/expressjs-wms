@@ -6,7 +6,7 @@
         <link href="./style.css" rel="stylesheet" type="text/css">
         <script>
             async function fetchServerInfo() {
-                const response = await fetch('/api-pgdc/info');
+                const response = await fetch('/api-pgdc/app/info');
                 const data = await response.json();
                 document.getElementById('webServer').innerText = `Backend: ${data.webServer} Version ${data.backendVersion}`;
                 document.getElementById('nodeVersion').innerText = `Runtime: Node.js Version ${data.nodeVersion}`;

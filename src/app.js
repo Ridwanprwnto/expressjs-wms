@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const dotenv = require("dotenv");
-const services = require('./services');
+const apiRoute = require('./routers/index');
 const { logger, logInfo } = require('./utils/logger');
 const setupCors = require('./middleware/corsConfig');
 
@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-app.use(process.env.PATH_API, services);
+app.use(process.env.PATH_API, apiRoute);
 
 app.listen(PORT, () => {
     logInfo(`Server is running on port ${PORT}`);
