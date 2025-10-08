@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "env:dev": "cp .env.development .env",
+    "env:prod": "cp .env.production .env"
   },
   "keywords": [],
   "author": "ridwanpurwanto",

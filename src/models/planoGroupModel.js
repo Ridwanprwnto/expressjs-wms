@@ -2,7 +2,7 @@ const pool = require('../config/db');
 const { logInfo, logError } = require('../utils/logger');
 
 const checkItemTablokModel = async (office, pluid, flag) => {
-    const query = 'SELECT A.pla_cellid, A.pla_fk_plukode, B.mbr_full_nama, A.pla_fk_tipe, A.pla_zona, A.pla_station, A.pla_line, A.pla_rak, A.pla_shelf, A.pla_cell, A.pla_zonabarang FROM dc_planogram_t A INNER JOIN dc_barang_dc_all B ON A.pla_fk_pluid = B.mbr_fk_pluid WHERE A.pla_dc_kode = $1 AND A.pla_fk_pluid = $2 AND A.pla_display = $3';
+    const query = 'SELECT A.pla_cellid, A.pla_fk_plukode, B.mbr_full_nama, A.pla_fk_tipe, A.pla_zona, A.pla_station, A.pla_line, A.pla_rak, A.pla_shelf, A.pla_cell, A.pla_zonabarang FROM dc_planogram_t A INNER JOIN dc_barang_t B ON A.pla_fk_pluid = B.mbr_pluid WHERE A.pla_dc_kode = $1 AND A.pla_fk_pluid = $2 AND A.pla_display = $3';
     const values = [office, pluid, flag];
     try {
         const result = await pool.query(query, values);
